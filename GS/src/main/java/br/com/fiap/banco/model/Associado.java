@@ -5,16 +5,17 @@ public class Associado {
 	private int id;
 	private String nome;
 	private int telefone;
-	private String convenio;
+	private int convenio;
 	
 	public Associado() {}
 	
-	public Associado(int id, String nome, int telefone, String convenio) {
+	public Associado(int id, String nome, int telefone, int convenio) {
 		this.id = id;
 		this.nome = nome;
 		this.telefone = telefone;
 		this.convenio = convenio;
 	}
+
 	public int getId() {
 		return id;
 	}
@@ -39,12 +40,17 @@ public class Associado {
 		this.telefone = telefone;
 	}
 
-	public String getConvenio() {
+	public int getConvenio() {
 		return convenio;
 	}
 
-	public void setConvenio(String convenio) {
+	public void setConvenio(int convenio) {
 		this.convenio = convenio;
+	}
+
+	public int getCodigo() {
+		// TODO Auto-generated method stub
+		return 0;
 	}
 
 

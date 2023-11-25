@@ -1,5 +1,6 @@
 package br.com.fiap.banco.exception;
 
+
 @SuppressWarnings("serial")
 public class BadInfoException extends Exception {
 	
